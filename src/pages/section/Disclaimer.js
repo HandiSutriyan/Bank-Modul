@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
+import {Container, Row, Col, Button, Jumbotron} from 'react-bootstrap';
 
 class DisclaimerSection extends Component{
 	render(){	
@@ -23,11 +23,11 @@ class DisclaimerSection extends Component{
 						<h1>Bagaimana Anda bisa mengetahui lebih banyak tentang Kami?</h1>
 					</Col>
 					<Col md={5}>
-						<h1>Kontak</h1>
-						<ul>
-							<li>Instagram: @beenst</li>
-							<li>Email: insbjuara@gmail.com</li>
-						</ul>
+					<h1>Kontak</h1>
+						<Jumbotron>
+							Instagram: @beenst<br/>
+							Email: insbjuara@gmail.com
+						</Jumbotron>
 					</Col>
 				</Row>
 			</Container>

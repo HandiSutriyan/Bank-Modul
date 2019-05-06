@@ -1,12 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
 import './App.css';
-import Home from './pages/Home'
+import Home from './pages/Home';
+import Profile from './pages/Profile';
 
 class App extends Component {
   render() {
     return (
-      <Home/>
+      <div id="app">
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={Profile} />
+        </Switch>
+      </Router>
+  </div>
     );
   }
 }

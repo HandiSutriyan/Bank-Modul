@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../beenst.png';
+
 import * as firebase from 'firebase';
 import 'firebase/database';
 
@@ -7,6 +7,7 @@ import HeaderSection from './section/Header';
 import MenuSection from './section/Menu';
 import DisclaimerSection from './section/Disclaimer'
 import FooterSection from './section/Footer';
+import MyCarousel from './section/Carousel';
 
 class Home extends Component {
   constructor(){
@@ -35,26 +36,10 @@ class Home extends Component {
     return (
       <div className="App">
         <HeaderSection/>
-        <header className="App-header">
-          <div className='Home-welcome'>
-            <div className='content-welcome'>
-              <img src={logo} className="App-logo" alt="logo" />
-              <p>
-              <h2>Web resmi Instrumentasi 1 B 2018 <br/>
-              SEKOLAH TINGGI METEOROLOGI KLIMATOLOGI DAN GEOFISIKA</h2>
-              </p>
-            </div>
-          </div>
-           <div className='content-welcome'>
-              <img src={logo} className="App-logo" alt="logo" />
-              <p>
-              <h2>Web resmi Instrumentasi 1 B 2018 <br/>
-              SEKOLAH TINGGI METEOROLOGI KLIMATOLOGI DAN GEOFISIKA</h2>
-              </p>
-            </div>
-        </header>
+        <div className="App-header">
+        <MyCarousel/>
+        </div>
         <article>
-          <h1>{/*this.state.item}: {this.state.speed*/}</h1>
           <h1> Apakah yang Anda Cari di Sini?</h1>
           <MenuSection/>
           <DisclaimerSection/>

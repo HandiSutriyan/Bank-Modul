@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import {Container, Row, Col, Button, Nav, Navbar, NavDropdown, Form, FormControl} from 'react-bootstrap';
+import {Button, Nav, Navbar, NavDropdown, Form, FormControl} from 'react-bootstrap';
 
 class HeaderSection extends Component{
 	render(){
 		return(
 					<Navbar bg="transparent" expand="lg">
-					  <Navbar.Brand href="#home">BEENST Instrumentasi IB 2018</Navbar.Brand>
+					  <Navbar.Brand href="#home">BEENST Instrumentasi B 2018</Navbar.Brand>
 					  <Navbar.Toggle aria-controls="basic-navbar-nav" />
 					  <Navbar.Collapse id="basic-navbar-nav">
 					    <Nav className="mr-auto">
@@ -16,7 +16,7 @@ class HeaderSection extends Component{
 					      <NavDropdown title="Layanan" id="basic-nav-dropdown">
 					        <NavDropdown.Item href="https://insb2018juara.000webhostapp.com/index.php?modul">Akses Modul</NavDropdown.Item>
 					        <NavDropdown.Item href="https://insb2018juara.000webhostapp.com/index.php?tugas">Tugas</NavDropdown.Item>
-					        <NavDropdown.Item href="https://insb2018juara.000webhostapp.com/index.php?modul">JARKOM</NavDropdown.Item>
+					        <NavDropdown.Item href="https://insb2018juara.000webhostapp.com/index.php?jarkom">JARKOM</NavDropdown.Item>
 					      </NavDropdown>
 					    
 					    </Nav>
