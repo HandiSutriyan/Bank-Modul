@@ -37,14 +37,19 @@ class Home extends Component {
       <div className="App">
         <HeaderSection/>
         <div className="App-header">
-        <MyCarousel/>
+        <DisclaimerSection/>
         </div>
         <article>
-          <h1> Apakah yang Anda Cari di Sini?</h1>
+          <h1 className='title'> Apakah yang Anda Cari di Sini?</h1>
+          <div className="Menu">
           <MenuSection/>
-          <DisclaimerSection/>
+          </div>
+          <div className="Disc-menu">
+          <h1 className='title'>Selayang Pandang</h1>
+          <MyCarousel/>
+          </div>
           <div class="Disc-angkatan">
-            <h2><u>Kami Adalah Bagian dari ATMAJAKARSA 2018</u></h2>
+            <h2><u><b>Kami Adalah Bagian dari ATMAJAKARSA 2018</b></u></h2>
             <p><b><i>"Atmareswara Jatmika Among Karsa Darpa Mahasura"</i></b></p>
             <p><i><small>"Jiwa Unggul Penjaga Gagasan yang Berani, Penuh Sopan Santun,
              dan Menjadi Kebanggaan"</small></i></p>

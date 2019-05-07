@@ -1,8 +1,9 @@
 .App {
   margin: 0;
   padding:0;
-  text-align: center;
- background-image: linear-gradient(to right, #30cfd0 0%, #282c34 100%);
+  /* text-align: center; */
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+  font-family: 'Zilla Slab', serif;
 }
 
 .App-logo {
@@ -16,17 +17,18 @@ article h1{
 }
 
 .App-header {
-  /* background-image: url('insb.jpg'); */
+  background-image: url('insb.jpg'); 
   background-color:transparent;
-  /* background-attachment: fixed; */
-  /* background-size: cover; */
-  min-height: 100px;
-  /* display: flex; */
+  background-attachment: fixed; 
+  background-size: cover;
+  height: 500px;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  overflow: hidden;
+  color: #fff
 }
 
 .App-link {
@@ -48,18 +50,9 @@ article h1{
   text-align: left;
   color: #fff;
 }
-.Header-menu a{
-  margin-left:100px;
-  text-decoration: none;
-  color:#fff;
-}
-
-.Home-welcome .content-welcome p{
-  color:#e67e22;
-}
-.content-welcome p{
-  position: relative;
-  color: #fff;
+.title{
+  text-align: center;
+  margin: 20px;
 }
 .Disc-angkatan {
   background-image: url('pp.jpg');
@@ -73,4 +66,21 @@ article h1{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.Menu{
+  background-color: #fff;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.Disc-menu{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.Footer{
+  background-color: #282c34;
+  min-height: 200px;
+  color: #fff;
+  width: 100%;
+  padding: 20px;
+
 }

@@ -7,7 +7,7 @@ class DisclaimerSection extends Component{
 			<Container>
 				<Row>
 					<Col>
-						<h1>Untuk Apa Web ini dibuat?</h1>
+						<h1><b>Untuk Apa Web ini dibuat?</b></h1>
 						<p>
 							Web ini dibuat untu memenuhi kebutuhan taruna/i kelas
 							Instrumentasi I B akan kebutuhan modul pembelajaran, karena sering kali 
@@ -16,18 +16,6 @@ class DisclaimerSection extends Component{
 							mengunduh modul yang sudah dibagikan, maka dari itu dibuatlah web ini sebagai 
 							sarana untuk berbagi dan mengakses modulpembelajaran yang ada.
 						</p>
-					</Col>
-				</Row>
-				<Row>
-					<Col md={7}>
-						<h1>Bagaimana Anda bisa mengetahui lebih banyak tentang Kami?</h1>
-					</Col>
-					<Col md={5}>
-					<h1>Kontak</h1>
-						<Jumbotron>
-							Instagram: @beenst<br/>
-							Email: insbjuara@gmail.com
-						</Jumbotron>
 					</Col>
 				</Row>
 			</Container>
