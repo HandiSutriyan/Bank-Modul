@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import {Container, Row, Col, Button, Jumbotron} from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
 
 class DisclaimerSection extends Component{
 	render(){	
 		return(
 			<Container>
 				<Row>
-					<Col>
-						<h1><b>Untuk Apa Web ini dibuat?</b></h1>
+					<Col style={{color:'white'}}>
+						<h1 className='title'><b>Untuk Apa Web ini dibuat?</b></h1>
 						<p>
 							Web ini dibuat untu memenuhi kebutuhan taruna/i kelas
 							Instrumentasi I B akan kebutuhan modul pembelajaran, karena sering kali 

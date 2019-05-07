@@ -3,10 +3,8 @@ import React, { Component } from 'react';
 import * as firebase from 'firebase';
 import 'firebase/database';
 
-import HeaderSection from './section/Header';
 import MenuSection from './section/Menu';
 import DisclaimerSection from './section/Disclaimer'
-import FooterSection from './section/Footer';
 import MyCarousel from './section/Carousel';
 
 class Home extends Component {
@@ -35,7 +33,6 @@ class Home extends Component {
   render() {
     return (
       <div className="App">
-        <HeaderSection/>
         <div className="App-header">
         <DisclaimerSection/>
         </div>
@@ -55,9 +52,6 @@ class Home extends Component {
              dan Menjadi Kebanggaan"</small></i></p>
         </div>
         </article>
-        <footer>
-          <FooterSection/>
-        </footer>
       </div>
     );
   }

@@ -8,7 +8,7 @@ class MenuSection extends Component{
 					<Row md={12}>
 						<Col>
 							<CardGroup>
-							  <Card style={{ width: '18rem' }}>
+							  <Card style={{ width: '18rem', margin:'25px' }}>
 								  <Card.Body>
 								  	<Card.Img variant="top" src="https://isorepublic.com/wp-content/uploads/2018/11/books-pile-1100x733.jpg" />
 								    <Card.Title>Modul Pembelajaran</Card.Title>
@@ -21,7 +21,7 @@ class MenuSection extends Component{
 								    </a>
 								  </Card.Body>
 								</Card>
-							  <Card style={{ width: '18rem' }}>
+							  <Card style={{ width: '18rem', margin:'25px' }}>
 								  <Card.Body>
 								  	<Card.Img variant="top" src="https://isorepublic.com/wp-content/uploads/2018/11/school-library-books-1100x733.jpg"/>
 								    <Card.Title>Tugas</Card.Title>
@@ -34,7 +34,7 @@ class MenuSection extends Component{
 								    </a>
 								  </Card.Body>
 								</Card>
-							   <Card style={{ width: '18rem' }}>
+							   <Card style={{ width: '18rem', margin:'25px' }}>
 								  <Card.Body>
 								  	<Card.Img variant="top" src="https://image.shutterstock.com/image-photo/microphone-stand-isolated-on-white-450w-547072228.jpg"/>
 								    <Card.Title>JARKOM</Card.Title>
