@@ -6,8 +6,8 @@ class DisclaimerSection extends Component{
 		return(
 			<Container>
 				<Row>
-					<Col style={{color:'white'}}>
-						<h1 className='title'><b>Untuk Apa Web ini dibuat?</b></h1>
+					<Col>
+						<h1 className='title brand-bg'><b>Web Resmi Instrumentasi B 2018</b></h1>
 						<p>
 							Web ini dibuat untu memenuhi kebutuhan taruna/i kelas
 							Instrumentasi I B akan kebutuhan modul pembelajaran, karena sering kali 

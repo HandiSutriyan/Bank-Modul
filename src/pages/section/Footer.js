@@ -8,13 +8,12 @@ class FooterSection extends Component{
 		return(
 			<Container className="Footer" fluid>
 				<Row>
-					<Col>
+					<Col md="6" style={{textAlign:'center'}}>
 					<img src={logo} />
-					<h3>Instrumentasi B 2018</h3>
+					<h3 className="brand-bg">Instrumentasi B 2018</h3>
 					</Col>
-					<Col>
-						<h4>Pengurus Utama Kelas</h4>
-						<p>
+					<Col md="6" style={{fontSize:'14px'}}>
+						<h4><u>Pengurus Utama Kelas</u></h4>
 							<ol>
 								<li>Komandan Pleton: Rois Misbakhudin</li>
 								<li>Wakil Komandan Pleton: Rahmad Fardi W.</li>
@@ -22,8 +21,7 @@ class FooterSection extends Component{
 								<li>Bendahara: Regina Natalia</li>
 								
 							</ol>
-						</p>
-						<h4>Kontak</h4>
+						<h4><u>Kontak</u></h4>
 						<p>
 							Instagram: @beenst<br/>
 							Email: insbjuara@gmail.com
@@ -31,7 +29,7 @@ class FooterSection extends Component{
 					</Col>
 				</Row>
 				<Row>
-					<Col>Copyright &copy; 2019 PMJCreatives</Col>
+					<Col style={{fontSize:'14px', fontSize:'11px'}}>Copyright &copy; 2019 PMJCreatives</Col>
 				</Row>
 			</Container>
 			)

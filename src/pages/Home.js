@@ -6,6 +6,7 @@ import 'firebase/database';
 import MenuSection from './section/Menu';
 import DisclaimerSection from './section/Disclaimer'
 import MyCarousel from './section/Carousel';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 
 class Home extends Component {
   constructor(){
@@ -34,22 +35,37 @@ class Home extends Component {
     return (
       <div className="App">
         <div className="App-header">
-        <DisclaimerSection/>
+          <Container style={{zIndex:1}}>
+          <Row>
+            <Col style={{color:'white', textAlign:'center'}}>
+              <h1 className='title brand-bg'><b>Web Resmi Instrumentasi B 2018</b></h1>
+              <p>
+                Web ini dibuat untu memenuhi kebutuhan taruna/i kelas
+                Instrumentasi I B akan kebutuhan modul pembelajaran
+              </p>
+              <a href="/about">
+              <Button primary>Kunjungi profil kami</Button>
+              </a>
+            </Col>
+          </Row>
+          </Container>
         </div>
         <article>
-          <h1 className='title'> Apakah yang Anda Cari di Sini?</h1>
+          <h1 className='brand-bg title'> Apakah yang Anda Cari di Sini?</h1>
           <div className="Menu">
           <MenuSection/>
           </div>
           <div className="Disc-menu">
-          <h1 className='title'>Selayang Pandang</h1>
+          <h1 className='brand-bg title'>Selayang Pandang</h1>
           <MyCarousel/>
           </div>
-          <div class="Disc-angkatan">
-            <h2><u><b>Kami Adalah Bagian dari ATMAJAKARSA 2018</b></u></h2>
-            <p><b><i>"Atmareswara Jatmika Among Karsa Darpa Mahasura"</i></b></p>
-            <p><i><small>"Jiwa Unggul Penjaga Gagasan yang Berani, Penuh Sopan Santun,
-             dan Menjadi Kebanggaan"</small></i></p>
+          <div className="Disc-angkatan">
+            <Container style={{textAlign:'center'}}>
+              <h2><u><b>Kami Adalah Bagian dari ATMAJAKARSA 2018</b></u></h2>
+              <p><b><i>"Atmareswara Jatmika Among Karsa Darpa Mahasura"</i></b></p>
+              <p><i><small>"Jiwa Unggul Penjaga Gagasan yang Berani, Penuh Sopan Santun,
+              dan Menjadi Kebanggaan"</small></i></p>
+            </Container>
         </div>
         </article>
       </div>

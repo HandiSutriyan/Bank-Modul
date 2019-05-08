@@ -5,6 +5,7 @@ import './App.css';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
 import Modul from './pages/Modul';
+import Upload from './pages/Upload';
 import FooterSection from './pages/section/Footer';
 import HeaderSection from './pages/section/Header';
 
@@ -18,6 +19,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={Profile} />
           <Route exact path="/modul" component={Modul} />
+          <Route exact path="/upload" component={Upload} />
         </Switch>
       </Router>
       <FooterSection/>
