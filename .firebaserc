@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "bank-modul-beenst"
+    "default": "bank-modul-beenst",
+    "test": "bank-modul-beenst"
   }
 }
