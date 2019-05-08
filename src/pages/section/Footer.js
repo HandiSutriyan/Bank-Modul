@@ -4,6 +4,17 @@ import {Container, Row, Col} from 'react-bootstrap';
 import logo from '../../beenst.png';
 
 class FooterSection extends Component{
+	constructor(){
+        super();
+        this.state = {
+			pengurus:[
+				{nama:' Rois Misbakhudin',jabatan:'Komandan Pleton'},
+				{nama: 'Rahmad Fardi W.',jabatan: 'Wakil Komandan Pleton'},
+				{nama: 'Haeradin Abd Kadir', jabatan:'Sekretaris'},
+				{nama: 'Regina Natalia', jabatan: 'Bendahara'},
+			]
+        }
+    }
 	render(){
 		return(
 			<Container className="Footer" fluid>
@@ -15,11 +26,9 @@ class FooterSection extends Component{
 					<Col md="6" style={{fontSize:'14px'}}>
 						<h4><u>Pengurus Utama Kelas</u></h4>
 							<ol>
-								<li>Komandan Pleton: Rois Misbakhudin</li>
-								<li>Wakil Komandan Pleton: Rahmad Fardi W.</li>
-								<li>Sekretaris: Khaeradin Abd kadir</li>
-								<li>Bendahara: Regina Natalia</li>
-								
+								{this.state.pengurus.map((item,)=>(
+									<li>{item.jabatan}: <b>{item.nama}</b></li>
+								))}
 							</ol>
 						<h4><u>Kontak</u></h4>
 						<p>

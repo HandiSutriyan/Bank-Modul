@@ -11,7 +11,7 @@ class HeaderSection extends Component{
 								<Nav className="ml-auto">
 									<Nav.Link href="/about">Profil</Nav.Link>
 									<NavDropdown title="Layanan" id="basic-nav-dropdown">
-										<NavDropdown.Item href="/modul">Akses Modul</NavDropdown.Item>
+										<NavDropdown.Item href="https://insb2018juara.000webhostapp.com/index.php?modul">Akses Modul</NavDropdown.Item>
 										<NavDropdown.Item href="https://insb2018juara.000webhostapp.com/index.php?tugas">Tugas</NavDropdown.Item>
 										<NavDropdown.Item href="https://insb2018juara.000webhostapp.com/index.php?jarkom">JARKOM</NavDropdown.Item>
 									</NavDropdown>

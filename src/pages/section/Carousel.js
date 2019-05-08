@@ -21,11 +21,10 @@ class MyCarousel extends React.Component
               <Carousel.Item>
                   <Row>
                     <Col md="4">
-                      <Carousel.Caption>
-                        <h1><b>Instrumentasi B 
-                          Angkatan 2018</b>
+                      <Carousel.Caption style={{height:"100%"}}>
+                        <h1><b>Instrumentasi B 2018</b>
                         </h1>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.Like most websites, we use cookies to give you a personalized service and to improve our website. For the best experience, please click “Accept Cookies”.</p>
+                        <p>Terdiri dari 29 orang dari seluruh Indonesia dengan karkater yang berbeda</p>
                       </Carousel.Caption>
                     </Col>
                     <Col md="8">
@@ -40,11 +39,10 @@ class MyCarousel extends React.Component
                 <Carousel.Item>
                   <Row>
                     <Col md="4">
-                      <Carousel.Caption>
-                        <h1><b>Instrumentasi B 
-                          Angkatan 2018</b>
+                      <Carousel.Caption style={{height:"100%"}}>
+                        <h1><b>Saling Melengkapi</b>
                         </h1>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.Like most websites, we use cookies to give you a personalized service and to improve our website. For the best experience, please click “Accept Cookies”.</p>
+                        <p>Melengkapi kekurangan diantara kami. Dan saling berbagi bahagia dan kesedihan untuk mempererat kesatuan</p>
                       </Carousel.Caption>
                     </Col>
                     <Col md="8">
